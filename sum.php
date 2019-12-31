@@ -1,5 +1,4 @@
 <?php
-
 // 課題1.引数に数値を指定して実行すると、数値を2倍にして返す関数を作成してください
  function calc($price){
   $result = $price * 2;
@@ -35,10 +34,8 @@ function max_array($arr){
     }
   }
   return $max_number;
-
 } 
 $array = [6, 2, 3, 10, 5];
-
 echo max_array($array);
 echo PHP_EOL;
     
@@ -76,5 +73,9 @@ date_default_timezone_set("Asia/Tokyo");
         date("Y")
     ))    
    ?>
+  
+  
+  
+  
    
    
